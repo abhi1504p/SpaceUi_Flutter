@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:space_ui/Home_page.dart';
 
-
-
-
 class Second extends StatefulWidget {
   const Second({super.key});
 
@@ -67,7 +64,7 @@ class _SecondState extends State<Second> {
                       quarterTurns: 2,
                       child: CircularProgressIndicator(
                         strokeWidth: 4,
-                        color: Colors.white,
+                        color: Colors.red,
                         value: progress == 0.99 ? 1 : progress,
                       ),
                     ),
@@ -77,7 +74,7 @@ class _SecondState extends State<Second> {
                       height: 90,
                       width: 90,
                       decoration: const BoxDecoration(
-                          shape: BoxShape.circle, color: Colors.white70 ),
+                          shape: BoxShape.circle, color: Colors.white54 ),
                       child: const Icon(
                         Icons.arrow_circle_right,
                         color: Colors.redAccent,
