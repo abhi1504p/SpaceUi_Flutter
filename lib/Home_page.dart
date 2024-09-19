@@ -79,7 +79,7 @@ class _homepageState extends State<homepage> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   buildcard(size, "Uranus", uranus, "2920"),
-                  buildcard(size, "Neptune", neptune, 3090)
+                  buildcard(size, "Neptune", neptune,3090)
                 ],
               ),
             ],
