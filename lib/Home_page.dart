@@ -92,12 +92,12 @@ class _homepageState extends State<homepage> {
         onTap: onTap,
         currentIndex:currentIndex,
         selectedItemColor: Colors.blue,
-        unselectedItemColor: Colors.grey.shade700f,
+        unselectedItemColor: Colors.grey.shade700,
         backgroundColor: Colors.black,
         showUnselectedLabels: false,
         showSelectedLabels: false,
         elevation:0,
-        items: <BottomNavigationBarItem>[
+        items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             label: 'Home',
             icon: Icon(Icons.home_outlined),
@@ -129,7 +129,7 @@ class _homepageState extends State<homepage> {
             children: [
                Text(
                 name,
-                style: TextStyle(
+                style: const TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                     fontSize: 35,
